@@ -17,9 +17,9 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
  * @author Ayodeji Fabusuyi
  */
 public class NoBoilerPlateDB {
-    private final String URL = "jdbc:derby://localhost:1527/employeeDB";
-    private final String USERNAME = "APP";
-    private final String PASSWORD = "password";
+    private final String URL = "linkToDatabase";
+    private final String USERNAME = "access Username";
+    private final String PASSWORD = "access Password";
     
     private DataSource getDataSource(String url, String username, String password){
         DriverManagerDataSource dataSource = new DriverManagerDataSource(url, username, password);
